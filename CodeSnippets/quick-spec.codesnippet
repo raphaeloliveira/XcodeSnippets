@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>qspec</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import Foundation
+import Quick
+import Nimble
+
+@testable import &lt;#target#&gt;
+
+class &lt;#SystemUnderTest#&gt;Spec: QuickSpec {
+  
+  override func spec() {
+    
+    describe("&lt;#SystemUnderTest#&gt;") {
+      
+    }
+  }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FF0BE4A5-CCAA-4E7D-8EAC-57D02774818E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Quick Spec</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
